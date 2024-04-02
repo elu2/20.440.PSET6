@@ -216,7 +216,7 @@ if __name__ == "__main__":
     axes[1].legend(loc="center right", bbox_to_anchor=(1.45, 0.5))
     
     plt.grid(False)
-    plt.savefig(f"./{srr_id}.jpg", dpi=600, bbox_inches="tight")
+    plt.savefig(f"../Figures/{srr_id}.jpg", dpi=600, bbox_inches="tight")
     
     
     ### Plotting RNA velocity vectors
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     
     ax.legend(loc="lower center", ncols=3, bbox_to_anchor=(0.5, -0.2))
     
-    plt.savefig(f"./{srr_id}_velo.jpg", dpi=300, bbox_inches="tight")
+    plt.savefig(f"../Figures/{srr_id}_velo.jpg", dpi=300, bbox_inches="tight")
     plt.show()
     
     
